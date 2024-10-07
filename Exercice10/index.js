@@ -1,3 +1,10 @@
 //votre code ici
+function printNumbers(n) {
+    let resultat = '';
+    for (let i = 1; i <= n; i++) {
+        resultat += i;
+    }
+    return resultat
+}
 
-export default printNumbers
+console.log(printNumbers(6));

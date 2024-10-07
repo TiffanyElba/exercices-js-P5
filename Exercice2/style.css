@@ -2,3 +2,17 @@ html {
     height: 100%;
     width: 100%;
 }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.img_id {
+    display: flex; 
+    justify-content: center;
+}
+
+.description {
+    text-align: justify;
+}
